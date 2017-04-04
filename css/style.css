@@ -1,0 +1,73 @@
+/* Empty. Add your own CSS if you like */
+.round-button {
+	width:70%;
+  margin-left: 15%;
+  margin-top: 30%
+}
+.round-button-circle {
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+
+    background: #4679BD;
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#30588e;
+}
+.round-button a {
+  display:block;
+  margin: 0;
+	float:left;
+	width:100%;
+	padding-top:55%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.spinner svg {
+margin-top: 30%;
+  width: 80%;
+  height: 80%;
+  stroke: #444;
+  fill: #444;
+  margin-left: 10%;
+}
+
+.trythis {
+	display: none;
+	margin-top: 55px;
+}
+
+
+
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+.logo{
+	background-color: white;
+	width: 100%;
+	height: 99px;
+	margin-top: 15px;
+
+}
